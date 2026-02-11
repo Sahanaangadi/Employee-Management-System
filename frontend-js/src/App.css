@@ -1,0 +1,130 @@
+/* PAGE BACKGROUND */
+body{
+  margin:0;
+  padding:0;
+  background: linear-gradient(135deg,#d9eaf7,#e6e6e6);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* MAIN CARD */
+.container{
+  width: 1000px;
+  margin: 40px auto;
+  text-align: center;
+  background: #3e6b6d;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+}
+
+/* TITLE */
+h1{
+  color:#01101f;
+  margin-bottom:20px;
+}
+
+/* INPUTS */
+.form input{
+  margin:10px;
+  padding:12px;
+  width:220px;
+  border-radius:8px;
+  border:1px solid #bbb;
+  outline:none;
+  transition:0.3s;
+}
+
+.form input:focus{
+  border:1px solid #2f7ecb;
+  box-shadow:0 0 6px #2f7ecb;
+}
+
+/* BUTTONS */
+button{
+  margin:10px;
+  padding:10px 18px;
+  border:none;
+  border-radius:8px;
+  cursor:pointer;
+  font-weight:bold;
+  transition:0.3s;
+}
+
+/* ADD BUTTON */
+button:nth-child(1){
+  background:#2f7ecb;
+  color:white;
+}
+
+button:nth-child(1):hover{
+  background:#1c5ea2;
+}
+
+/* UPDATE BUTTON */
+button:nth-child(2){
+  background:#2fbf71;
+  color:white;
+}
+
+button:nth-child(2):hover{
+  background:#1f9d58;
+}
+
+/* TABLE */
+table{
+  width:100%;
+  margin-top:30px;
+  border-collapse:collapse;
+  background:white;
+  border-radius:12px;
+  overflow:hidden;
+  box-shadow:0 4px 10px rgba(0,0,0,0.15);
+}
+
+th{
+  background:#2f7ecb;
+  color:white;
+  padding:14px;
+}
+
+td{
+  padding:12px;
+  border-bottom:1px solid #ddd;
+}
+
+tr:hover{
+  background:#eef5fc;
+}
+
+/* ACTION BUTTONS */
+td button{
+  padding:6px 12px;
+  margin:4px;
+  font-size:13px;
+}
+
+td button:first-child{
+  background:#5ac9e4;
+  color:black;
+}
+
+td button:first-child:hover{
+  background:#56bdd1;
+}
+
+td button:last-child{
+  background:#4ed890;
+  color:white;
+}
+
+td button:last-child:hover{
+  background:#3b946c;
+}
+
+/* VALIDATION ERROR */
+.error{
+  color:rgb(122, 173, 93);
+  font-size:12px;
+  margin-top:-6px;
+  margin-bottom:6px;
+}
